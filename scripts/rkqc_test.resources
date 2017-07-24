@@ -1,0 +1,29 @@
+	Qubit	Gross A	Net A	Width	X	Z	H	T	T_dag	S	S_dag	CNOT	PrepZ	MeasZ
+Function: assign_value_of_b_to_a.i16.i16.i32_impl
+	0	1	1	1	0	0	0	0	0	0	0	3	0	0
+3
+Function: a_swap_b.i16.i16.i32_impl
+	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+3
+Function: a_eq_a_plus_b.i16.i16.i32_impl
+	0	2	2	2	0	0	2	3	4	1	0	18	0	0
+28
+Function: encrypt
+	32	14	14	14	0	0	4	6	8	2	0	60	0	0
+80
+Function: assign_value_of_0_to_a.i16.i32_impl
+	0	2	2	2	0	0	0	0	0	0	0	3	0	0
+3
+Function: assign_value_of_1_to_a.i16.i32_impl
+	0	2	2	2	0	0	0	0	0	0	0	3	0	0
+3
+Function: reverseBits32
+	0	14	14	14	0	0	4	6	8	2	0	60	0	0
+80
+Function: main
+	32	14	14	14	0	0	4	6	8	2	0	60	0	0
+80
+Function: ToffoliImpl_Q_A_Q
+	0	0	0	0	0	0	2	3	4	1	0	7	0	0
+17
+total_gates = 80

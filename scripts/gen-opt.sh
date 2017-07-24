@@ -29,11 +29,11 @@ for f in $*; do
   if [ ! -e ${b}/${b}.ll ]; then
     # Generate compiled files
     $ROOT/scaffold.sh -r $f
-    mv ${b}11.ll ${b}11.ll.keep_me
+    mv ${b}12.ll ${b}12.ll.keep_me
     # clean intermediary compilation files (comment out for speed)
     #$ROOT/scaffold.sh -c $f
     # Keep the final output for the compilation
-    mv ${b}11.ll.keep_me ${b}/${b}.ll
+    mv ${b}12.ll.keep_me ${b}/${b}.ll
   fi
 done
 
@@ -58,9 +58,9 @@ for f in $*; do
   echo "[gen-opt.sh] $b: Toffoli Replace..."  
   $OPT -S -load $SCAF -ToffoliReplace  ${b}/${b}.flat25M.ll -o ${b}/${b}.flat25M_Tof.ll
   echo "[gen-opt.sh] $b: Optimizing..."  
-  $OPT -S -load $SCAF -Optimize ${b}/${b}.flat25M_Tof.ll > ${b}/${b}.flat25M_Tof_Optimized.ll > /dev/null 2> haha_${b}.txt
+  $OPT -S -load $SCAF -Optimize ${b}/${b}.flat25M_Tof.ll > ${b}/${b}.flat25M_Tof_Optimized.ll 2> haha_${b}.txt
 #  echo "[gen-opt.sh] $b: Gen-qasm..."  
-#  $OPT -S -load $SCAF -gen-qasm  ${b}/${b}.flat25M_Tof.ll 2> ${b}/${b}.qasmh  > /dev/null
+  $OPT -S -load $SCAF -gen-qasm  ${b}/${b}.flat25M_Tof_Optimized.ll 2> ${b}/${b}.qasmh  > /dev/null
 #  echo "[gen-opt.sh] $b: converting back to C++"  
 #  python flatten-qasm.py ${b}/${b}.qasmh 
 #  echo "[gen-opt.sh] $b: generating _qasm"  

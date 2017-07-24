@@ -1,0 +1,253 @@
+-------Optimization Pass:
+main
+hehehe
+llvm.CNOT.i16.i8 h0.i [0]
+ancilla_zero_garbage.i9.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zero_garbage.i9.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zero_zero.i8.i.i [0]
+h0.i [0]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [0]
+ancilla_zero_garbage.i7.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zero_garbage.i7.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_one_one.i6.i.i [0]
+h0.i [0]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [0]
+ancilla_zg.i5.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i5.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [0]
+Commute?:0
+llvm.CNOT.i16.i16 h0.i [0]
+h0.i [1]
+Commute?:0
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [0]
+ancilla_zz.i4.i.i [0]
+Commute?:0
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [0]
+Commute?:0
+llvm.H.i16 h0.i [0]
+Commute?:1
+llvm.Tdag.i8 ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.T.i16 h0.i [1]
+Commute?:1
+llvm.T.i16 h0.i [0]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zg.i3.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i3.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.Tdag.i8 ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [0]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zg.i3.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.Tdag.i8 ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.Tdag.i16 h0.i [1]
+Commute?:1
+llvm.T.i16 h0.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i3.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.S.i8 ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [0]
+h0.i [1]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.H.i16 h0.i [0]
+Commute?:1
+llvm.CNOT.i8.i8 ancilla_zz.i4.i.i [0]
+ancilla_zg.i3.i.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zz.i4.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zz.i4.i.i [0]
+h0.i [0]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [0]
+ancilla_zz.i4.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zz.i4.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zg.i3.i.i [0]
+h0.i [1]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zg.i3.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i3.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [0]
+ancilla_zero_garbage.i2.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zero_garbage.i2.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zero_zero.i.i.i [0]
+h0.i [0]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zero_garbage.i.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zero_garbage.i.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_one_one.i.i.i [0]
+h0.i [1]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zg.i1.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i1.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [2]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [2]
+h0.i [1]
+Commute?:0
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [2]
+Commute?:0
+llvm.CNOT.i16.i16 h0.i [2]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [2]
+ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zz.i.i.i [0]
+Commute?:0
+llvm.CNOT.i16.i16 h0.i [2]
+h0.i [1]
+Commute?:0
+llvm.H.i16 h0.i [1]
+Commute?:1
+llvm.Tdag.i8 ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.T.i16 h0.i [2]
+Commute?:1
+llvm.T.i16 h0.i [1]
+Commute?:1
+llvm.CNOT.i16.i8 h0.i [2]
+ancilla_zg.i.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.Tdag.i8 ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [2]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zg.i.i.i [0]
+h0.i [2]
+Commute?:1
+llvm.Tdag.i8 ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.Tdag.i16 h0.i [2]
+Commute?:1
+llvm.T.i16 h0.i [1]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.S.i8 ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.CNOT.i16.i16 h0.i [1]
+h0.i [2]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [2]
+ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.H.i16 h0.i [1]
+Commute?:1
+llvm.CNOT.i8.i8 ancilla_zz.i.i.i [0]
+ancilla_zg.i.i.i [0]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zz.i.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zz.i.i.i [0]
+h0.i [1]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [1]
+ancilla_zz.i.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zz.i.i.i [0]
+h0.i [1]
+Commute?:1
+llvm.CNOT.i8.i16 ancilla_zg.i.i.i [0]
+h0.i [2]
+Commute?:0
+llvm.CNOT.i16.i8 h0.i [2]
+ancilla_zg.i.i.i [0]
+Commute?:0
+llvm.CNOT.i8.i16 ancilla_zg.i.i.i [0]
+h0.i [2]
+vectQbit
+ancilla_zero_zero.i8.i.i
+0x1b7cc08
+ancilla_zero_garbage.i9.i.i
+0x1b7cc88
+ancilla_one_one.i6.i.i
+0x1b7cd48
+ancilla_zero_garbage.i7.i.i
+0x1b77bb8
+ancilla_zg.i5.i.i
+0x1b77c78
+ancilla_zg.i3.i.i
+0x1b77cf8
+ancilla_zz.i4.i.i
+0x1b77da8
+ancilla_zero_zero.i.i.i
+0x1b77e58
+ancilla_zero_garbage.i2.i.i
+0x1b77f08
+ancilla_one_one.i.i.i
+0x1b77fc8
+ancilla_zero_garbage.i.i.i
+0x1b78078
+ancilla_zg.i1.i.i
+0x1b78138
+ancilla_zg.i.i.i
+0x1b7c468
+ancilla_zz.i.i.i
+0x1b78388
+h0.i
+0x1b78408
