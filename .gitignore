@@ -17,6 +17,8 @@
 *.pyc
 # vim swap files
 .*.sw?
+# llvm intermediate files
+*.ll
 
 #==============================================================================#
 # Explicit files to ignore (only matches one).
@@ -42,3 +44,5 @@ scaffold/*.scaffold
 scaffold/*.o
 # Ignore the scaffold executable
 scaffold/scaffold
+# Ignore *.ll in scripts
+scripts/*.ll
